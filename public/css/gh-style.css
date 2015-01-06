@@ -1,0 +1,49 @@
+@import url("../bootstrap/css/bootstrap.min.css");
+@import url("./github.css");
+
+html, body { overflow-x: hidden; }
+textarea {
+    width: 100%;
+    resize: vertical;
+}
+
+.gh-generated {
+    margin: 20px 0;
+    height: 200px !important;
+    font-family: monospace;
+}
+
+.active { fill: green !important; }
+.day { fill: #eeeeee; }
+.today {
+    fill: darkgray;
+}
+
+#loading-text {
+    display: none;
+    font-weight: bold;
+}
+
+.day.disabled {
+    opacity: 0;
+}
+
+.progress-bar {
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+.box {
+    margin: 12px 0;
+}
+.box-body {
+    padding: 0 12px;
+}
+
+.controls {
+    margin: 5px 0 16px 0;
+}
+.controls .btn, .controls input {
+    width: 240px;
+    margin-right: 8px;
+}

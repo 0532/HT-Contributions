@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Github Contributions</title>
+        <link href="css/gh-style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Github Contributions</h1>
+            <div class="contributions-calendar">
+                <div class="box box-small">
+                    <div class="box-header">
+                          <h3 class="box-title">
+                              Calendar
+                          </h3>
+                    </div>
+                    <div class="box-body">
+                        <!-- CALENDAR -->
+                        <div id="contributions-calendar">
+                            <div class="js-graph js-calendar-graph graph-canvas calendar-graph">
+                                <svg width="721" height="110" id="calendar-graph">
+                                    <g transform="translate(20, 20)">
+                                        <g transform="translate(13, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(26, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(39, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(52, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(65, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(78, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(91, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(104, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(117, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(130, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(143, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(156, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(169, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(182, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(195, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(208, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(221, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(234, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(247, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(260, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(273, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(286, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(299, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(312, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(325, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(338, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(351, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(364, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(377, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(390, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(403, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(416, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(429, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(442, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(455, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(468, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(481, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(494, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(507, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(520, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(533, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(546, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(559, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(572, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(585, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(598, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(611, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(624, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(637, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(650, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(663, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(676, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                        <g transform="translate(689, 0)">
+                                            <rect class="day" width="11" height="11" y="0"></rect>
+                                            <rect class="day" width="11" height="11" y="13"></rect>
+                                            <rect class="day" width="11" height="11" y="26"></rect>
+                                            <rect class="day" width="11" height="11" y="39"></rect>
+                                            <rect class="day" width="11" height="11" y="52"></rect>
+                                            <rect class="day" width="11" height="11" y="65"></rect>
+                                            <rect class="day" width="11" height="11" y="78"></rect>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <p>
+                                Activate smooth painting mode by holding down <kbd>Shift</kbd>.<br>
+                                Activate smooth erasure mode by holding down <kbd>Ctrl</kbd>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contributions-data">
+                <div class="box box-small">
+                    <div class="box-header">
+                          <h3 class="box-title">
+                              Data
+                          </h3>
+                    </div>
+                    <div class="box-body">
+                        <!-- DATA -->
+                        <textarea class="gh-generated"></textarea>
+                        <p>
+                            Enter a JSON object containing keys:
+                            <ul>
+                                <li>
+                                    <code>coordinates</code>: an array of points
+                                    containing keys <code>x</code> and <code>y</code>
+                                </li>
+                                <li>
+                                    <code>commitsPerDay</code>: a number.
+                                </li>
+                            </ul>
+                            Or, use the buttons below to generate the data.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="progress progress-striped active">
+                <div class="progress-bar"  role="progressbar" aria-valuemax="100">
+                </div>
+            </div>
+            <div class="controls">
+                <button class="btn btn-primary btn-generate"> Generate data from calendar </button>
+                <button class="btn btn-warning btn-generate-repo"> Generate repository from data </button>
+            </div>
+            <div class="controls">
+                <input type="text" class="generate-text" placeholder="ENTER TEXT HERE">
+                <button class="btn btn-primary btn-generate-text"> Generate data from text </button>
+            </div>
+            <div class="controls">
+                <button class="btn btn-primary btn-toggle"> Toggle calendar days from data </button>
+                <button class="btn btn-primary btn-clear"> Clear calendar </button>
+            </div>
+            <span id="loading-text"></span>
+        </div>
+    </body>
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src='/socket.io/socket.io.js'></script>
+    <script src="js/font.js"></script>
+    <script src="js/index.js"></script>
+</html>

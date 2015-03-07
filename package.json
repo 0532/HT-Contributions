@@ -1,0 +1,42 @@
+{
+  "name": "gh-contributions",
+  "version": "1.1.1",
+  "description": "A tool that generates a repository which being pushed into your GitHub account creates a nice contributions calendar.",
+  "main": "lib/server.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/IonicaBizau/github-contributions.git"
+  },
+  "keywords": [
+    "contributions",
+    "github",
+    "git"
+  ],
+  "bin": "./lib/server.js",
+  "scripts": {
+    "start": "./lib/server.js"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "contributors": [
+    "Ionică Bizău <bizauionica@gmail.com>",
+    "Silviu Bogan <silviubogan@gmail.com>",
+    "Guilherme Sad <gorgulhoguilherme@gmail.com>",
+    "ComFreek <comfreek@outlook.com>",
+    "Adrian Moisey <adrian@changeover.za.net>",
+    "James Nylen <jnylen@gmail.com>",
+    "Sin <dev@zouxin.net>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/github-contributions/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/github-contributions",
+  "devDependencies": {},
+  "dependencies": {
+    "archiver": "^0.14.2",
+    "gry": "^1.0.0",
+    "lien": "^0.0.7",
+    "ul": "^1.1.0",
+    "socket.io": "^1.1.0"
+  }
+}

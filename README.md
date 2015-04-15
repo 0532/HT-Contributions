@@ -12,10 +12,12 @@ This repository was generated with [GitHub Contributions](https://github.com/Ion
 >>git push -u origin master
 ```
 
-```
+*错误：*
+
 CONFLICT (add/add): Merge conflict in README.md
+
 Automatic merge failed; fix conflicts and then commit the result.
-```
+
 ```
 >>git remote add origin https://github.com/0532/HT-Contributions.git
 

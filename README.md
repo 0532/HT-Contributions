@@ -12,7 +12,7 @@ This repository was generated with [GitHub Contributions](https://github.com/Ion
 >>git push -u origin master
 ```
 
-*错误：*
+*合并冲突错误：*
 
 CONFLICT (add/add): Merge conflict in README.md
 
